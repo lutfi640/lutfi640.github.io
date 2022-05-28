@@ -185,10 +185,12 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2rem 0;
+		text-align: justify;
 	}
 
 		p.major {
-			font-size: 1.25rem;
+			font-size: 1.7rem;
+			
 		}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -204,7 +206,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 3.5rem;
+		font-size: 3.7rem;
 		line-height: 1.2;
 	}
 
@@ -3670,7 +3672,9 @@ input, select, textarea {
 			border-radius: 0.5rem;
 			margin-bottom: 2rem;
 			z-index: 1;
+			opacity:0.8;
 		}
+
 
 		.banner.style2 .image {
 			-moz-flex-grow: 0;
@@ -8256,7 +8260,7 @@ input, select, textarea {
 	}
 
 		#wrapper > .invert {
-			background-color: #000000;
+			background-color: #1c1a1a;
 			color: #ffffff;
 		}
 
