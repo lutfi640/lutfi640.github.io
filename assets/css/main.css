@@ -206,7 +206,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 3.7rem;
+		font-size: 3.5rem;
 		line-height: 1.2;
 	}
 
@@ -3672,7 +3672,7 @@ input, select, textarea {
 			border-radius: 0.5rem;
 			margin-bottom: 2rem;
 			z-index: 1;
-			opacity:0.8;
+			opacity:0.9;
 		}
 
 
@@ -8260,7 +8260,7 @@ input, select, textarea {
 	}
 
 		#wrapper > .invert {
-			background-color: #1c1a1a;
+			background-color: #010416;
 			color: #ffffff;
 		}
 
