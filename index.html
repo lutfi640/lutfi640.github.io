@@ -1,451 +1,611 @@
-<!DOCTYPE HTML>
-<!--
-	Story by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Imam Lutfi Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" href="images\folder.png">
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Imam Lutfi Rahmatullah — Data Engineer &amp; Data Analyst</title>
+<meta name="description" content="Portfolio of Imam Lutfi Rahmatullah, Data Engineer & Data Analyst — data pipelines, warehouses, and dashboards." />
+<link rel="icon" href="images/folder.png" />
+<meta name="theme-color" content="#171B1F" />
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="divided">
+<!-- Fonts: 2 families only, self-hosted-style swap so text never blocks render -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
 
-				<!-- One -->
-					<section class="banner style2 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right ">
-						<div class="content">
-							<h1><b>Imam Lutfi Rahmatullah</b></h1>
-							<p class="major">Data Engineer  |  Data Analyst</p>
-							<ul class="actions stacked">
-								<li><a href="#first" class="button big wide smooth-scroll-middle">Get Started</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/banner2.jpg" alt="" />
-						</div>
-					</section>
+<style>
+  :root{
+    --paper:#F5F6F4;
+    --paper-dim:#EBEDEA;
+    --ink:#171B1F;
+    --steel:#4B565E;
+    --steel-soft:#7A848B;
+    --line:#DADEDC;
+    --accent:#E8A33D;
+    --accent-deep:#B97220;
+    --card:#FFFFFF;
+    --radius:10px;
+    --maxw:1080px;
+    --font-display:'Space Grotesk', system-ui, sans-serif;
+    --font-body:'IBM Plex Sans', system-ui, sans-serif;
+    --font-mono:'IBM Plex Mono', ui-monospace, monospace;
+  }
 
-				<!-- Two -->
-					<section class="spotlight style2 orient-right content-align-left image-position-center onscroll-image-fade-in " id="first">
-						<div class="content">
-							<h2>About Me</h2>
-							<p>I am a Data Engineer at PT Surya Madistrindo, a subsidiary of PT Gudang Garam Tbk, 
-								with 2 years of experience in the data engineering field. I have successfully designed, 
-								created, and maintained data pipelines from various sources, storing the data in Data Warehouses 
-								and Data Marts. My projects include automating tasks such as sending automatic emails, 
-								generating Excel reports, and reading data from various sources using Python to meet end-user needs. 
-								Additionally, I have experience in visualizing data using Tableau for analytical purposes and am 
-								familiar with workflow monitoring tools like Airflow.</p>
-							
-						</div>
-						<div class="image">
-							<img src="images/Profile1.jpg" alt="" />
-						</div>
-					</section>
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation-duration:0.001ms !important; transition-duration:0.001ms !important;}
+  }
 
-				<!-- Five -->
-					<section class="wrapper style1 align-center">
-						<div class="inner">
-							<h2>Certificate</h2>
-							
-						</div>
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--font-body);
+    font-size:16px;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
 
-						<!-- Gallery -->
-							<div class="gallery style1 medium lightbox onscroll-fade-in ">
-								<article>
-									<a href="images\Certificate\Coursera ET6WV5KXNQ4U-1.jpg" class="image">
-										<img src="images\Certificate\Coursera ET6WV5KXNQ4U-1.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Google via Coursera</h3>
-										<p>Google IT Automation with Python</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images\Certificate\Coursera M4C8PPYDXMRK-1.jpg" class="image">
-										<img src="images\Certificate\Coursera M4C8PPYDXMRK-1.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>DeepLearning.AI via Coursera</h3>
-										<p>DeepLearning.AI TensorFlow Developer</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images\Certificate\Coursera HWFUBPTY739B-1.jpg" class="image">
-										<img src="images\Certificate\Coursera HWFUBPTY739B-1.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>DeepLearning.AI via Coursera</h3>
-										<p>TensorFlow: Data and Deployment</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images\Certificate\Coursera LGBCA4BXQ2UZ-1.jpg" class="image">
-										<img src="images\Certificate\Coursera LGBCA4BXQ2UZ-1.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Imperial College London via Coursera</h3>
-										<p>Mathematics for Machine Learning</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images\Certificate\Coursera ZY4AE67N8UJW-1.jpg" class="image">
-										<img src="images\Certificate\Coursera ZY4AE67N8UJW-1.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Google via Coursera</h3>
-										<p>Google IT Support</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images\Certificate\Imam_Lutfi_Rahmatullah_12-08-2021_page-0001.jpg" class="image">
-										<img src="images\Certificate\Imam_Lutfi_Rahmatullah_12-08-2021_page-0001.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Cakap x Bangkit</h3>
-										<p>Digital English Program</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images\Certificate\sertifikat_course_86_370000_040722120452-1_page-0001.jpg" class="image">
-										<img src="images\Certificate\sertifikat_course_86_370000_040722120452-1_page-0001.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Dicoding</h3>
-										<p>Memulai Pemrograman Dengan Python</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images\Certificate\sertifikat_course_177_370000_050622212431-1_page-0001.jpg" class="image">
-										<img src="images\Certificate\sertifikat_course_177_370000_050622212431-1_page-0001.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Dicoding</h3>
-										<p>Belajar Dasar Visualisasi Data</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images\Certificate\sertifikat_course_184_370000_040722120148-1_page-0001.jpg" class="image">
-										<img src="images\Certificate\sertifikat_course_184_370000_040722120148-1_page-0001.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Dicoding</h3>
-										<p>Belajar Machine Learning Untuk Pemula</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images\Certificate\python basic.png" class="image">
-										<img src="images\Certificate\python basic.png" alt="" />
-									</a>
-									<div class="caption">
-										<h3>HackerRank</h3>
-										<p>Python (Basic)</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images\Certificate\sql (Basic).png" class="image">
-										<img src="images\Certificate\sql (Basic).png" alt="" />
-									</a>
-									<div class="caption">
-										<h3>HackerRank</h3>
-										<p>SQL (Basic)</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images\Certificate\sql intermdiate.png" class="image">
-										<img src="images\Certificate\sql intermdiate.png" alt="" />
-									</a>
-									<div class="caption">
-										<h3>HackerRank</h3>
-										<p>SQL (Intermediate)</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>								
-							</div>
-					</section>
+  img{max-width:100%; display:block;}
+  a{color:inherit;}
+  h1,h2,h3,h4{font-family:var(--font-display); margin:0 0 .5em; line-height:1.15;}
 
-				<!-- Six -->
-					<!-- Six -->
-					<section class="wrapper style1 align-center ">
-						<div class="inner">
-							<h2>Portfolio</h2>
-							<div class="items style1 medium onscroll-fade-in">
-								<section>
-									<span class="icon style1">
-										<a href="https://github.com/lutfi640/lutfi640.github.io/tree/main/images/Sample%20of%20Tableau%20Dashboard" target="_blank"><img src="images\Tableau-Emblem.png" alt="" width="250" height="100"></a>
-									</span>
-									<h4><b><a href="https://github.com/lutfi640/lutfi640.github.io/tree/main/images/Sample%20of%20Tableau%20Dashboard" target="_blank">Tableau Dashboard</a> </b></h4>
-									<p>
-										I design and develop Tableau Dashboards and Datasets based on end-user requirements, providing clear and actionable insights. I build the data warehouse from the ground up, ensuring data accuracy, consistency, and scalability. From there, I prepare datasets and create both analytical dashboards for business decision-making and monitoring dashboards to track performance and operations.
-									</p>
-								</section>
-								<section>
-									<span class="icon style1">
-										<a href="https://github.com/lutfi640/bangkit-final-project" target="_blank"><img src="images\skinskan.png" alt="" width="250" height="100"></a>
-									</span>
-									<h4><b><a href="https://github.com/lutfi640/bangkit-final-project" target="_blank">SkinSkan</a> </b></h4>
-									<p>
-										Application that helps users to know how to help users examine their own bodies to detect early stage skin cancer. This is a project to fulfill the <a href="https://grow.google/intl/id_id/bangkit/" target="_blank">Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka</a> Program
-									</p>
-								</section>
-								<section>
-									<span class="icon style1">
-										<a href="https://github.com/lutfi640/Rock-Paper-Scissors-Classification" target="_blank"><img src="images\rps.jpg" alt="" width="250" height="250"></a>
-									</span>
-									<h4><b><a href="https://github.com/lutfi640/Rock-Paper-Scissors-Classification" target="_blank">Rock Paper Scissors Classification</a> </b></h4>
-									<p>
-										Simple project to complete submission on <a href="https://www.dicoding.com/academies/184/corridor" target="_blank">Dicoding Learn Machine Learning for Beginner</a>.
-										This repo classify rock, paper, scissor image using neural networks and Tensorflow and also implement
-										Transfer Learning using VGG16.
-									</p>
-								</section>
-								<section>
-									<span class="icon style1">
-										<a href="https://github.com/lutfi640/Arabic-Handwriting-Classification" target="_blank"><img src="images\handwriting.png" alt="" width="250" height="100"></a>
-									</span>
-									<h4><b><a href="https://github.com/lutfi640/Arabic-Handwriting-Classification" target="_blank">Arabic Handwriting Classification</a> </b></h4>
-									<p>
-										Create a model to classify handwritten alphabet and number in Arabic. 
-										Created by using TensorFlow framework with CNN 2 dimension for image data. 
-										So when the model was created, it can predict new image to the belonging class.
-									</p>
-								</section>
-								<section>
-									<span class="icon style1">
-										<a href="https://github.com/lutfi640/Arabic-Speech-Recognition" target="_blank"><img src="images\speech.png" alt="" width="250" height="100"></a>
-									</span>
-									<h4><b><a href="https://github.com/lutfi640/Arabic-Speech-Recognition" target="_blank">Arabic Speech Recognition</a> </b></h4>
-									<p>
-										Create model with TensorFlow to classify spoken words by human. 
-										Used feature extraction MFCC before going to modeling. And after all 
-										set up, I deploy the model using Heroku.
-									</p>
-								</section>
-								<section>
-									<span class="icon style1">
-										<img src="images\UIN Syarif Hidayatullah.png" alt="" width="100" height="100">
-									</span>
-									<h4><b>Published Journal :</b></h4>
-									<ol>
-										<li><a href="https://doi.org/10.1109/CITSM52892.2021.9588947" target="_blank">Comparing Bitcoin's Prediction Model Using GRU, RNN, and LSTM by Hyperparameter Optimization Grid Search and Random Search</a></li>
-									</ol>
-								</section>
-							</div>
-						</div>
-					</section>
+  a:focus-visible, button:focus-visible, dialog:focus-visible{
+    outline:2px solid var(--accent-deep);
+    outline-offset:3px;
+  }
 
-				<!-- Seven -->
-					<section class="wrapper style1 align-center ">
-						<div class="inner">
-							<h2>Experience</h2>
-							<div class="items style1 medium onscroll-fade-in">
-								<section>
-									<span class="icon style1">
-										<img src="images\logo SM.png" alt="" width="100" height="100">
-									</span>
-									<h4><b>PT Surya Madistrindo</b></h4>
-									<h5>2022 - Current</h5>
-									<p>
-										I develop various projects to the end user of the Company using SQL, Python, Tableau, etc. 
-										Moreover I usually communicate with user to understand their data needs and provide effective solutions. 
-									</p>
-								</section>
-								<section>
-									<span class="icon style1">
-										<img src="images\bangkit1.jpg" alt="" width="100" height="100">
-									</span>
-									<h4><b>Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka</b></h4>
-									<h5>2021</h5>
-									<p>
-										I participate as a Student in Machine Learning path for 
-										1 semester straight. On the end of the program, my group
-										created capstone project Application on Android to classify
-										benign skin cancer.
-									</p>
-								</section>
-								<section>
-									<span class="icon style1">
-										<img src="images\UIN Syarif Hidayatullah.png" alt="" width="100" height="100">
-									</span>
-									<h4><b>Head of Academic Division at <a href="https://himtiuinjkt.or.id">HIMTI UIN Jakarta</a></b></h4>
-									<h5>2019 - 2021</h5>
-									<p>
-										Responsible for facilitating Informatics Engineering students
-										UIN Syarif Hidayatullah Jakarta in the academic field of 
-										campus by create work programs that help students.	
-									</p>
-								</section>
-								<section>
-									<span class="icon style1">
-										<img src="images\UIN Syarif Hidayatullah.png" alt="" width="100" height="100">
-									</span>
-									<h4><b>Member of Innovation Team at Science Technology Faculty UIN Jakarta</b></h4>
-									<h5>2020 - 2021</h5>
-									<p>
-										Create some projects using Arduino or Raspberry Pi
-										as requested from the faculty like automatic thermometer
-										and automatic hand sanitizer dispenser.
-									</p>
-								</section>
-								<section>
-									<span class="icon style1">
-										<img src="images\UIN Syarif Hidayatullah.png" alt="" width="100" height="100">
-									</span>
-									<h4><b>Lecturer Assistant</b></h4>
-									<h5>2020 - Present</h5>
-									<ul class="alt">
-										<li>Digital System (4th Semester, 2020)</li>
-										<li>Digital System (6th Semester, 2021)</li>
-										<li>Embedded System (7th Semester, 2021)</li>
-										<li>Robotic (8th Semester, present)</li>
-									</ul>
-								</section>
-								<section>
-									<span class="icon style1">
-										<img src="images\huawei ict.jpg" alt="" width="100" height="100">
-									</span>
-									<h4><b>Huawei ICT Competition National 2020-2021</b></h4>
-									<h5>2020 - 2021</h5>
-									<p>
-										After I got <a href="https://github.com/lutfi640/lutfi640.github.io/blob/main/images/Certificate/FA%20AI%20Track%20-%20Preliminary%20Round%203rd-UIN_page-0001.jpg" target="_blank">rank 3</a> on the selection in campus, 
-										I represent my campus on the national competition
-										to compete with other university. Unfortunately,
-										my campus didn't win.
-									</p>
-								</section>
-								
-							</div>
-						</div>
-					</section>
-				
-				<!-- Seven -->
-				<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
-					<div class="content">
-						<h2>Skills</h2>
-						<dl>
-							<dt>Programming Language & Tools</dt>
-							<dd>
-								<ul>
-									<li>Oracle SQL</li>
-									<li>PostgreSQL</li>
-									<li>MongoDB</li>
-									<li>Apache Spark</li>
-									<li>Airflow</li>
-									<li>Python</li>
-									<li>Tableau</li>
-									<li>SQL Server Reporting Services</li>
-								</ul>
-							</dd>
-							<dt>Data Extraction</dt>
-							<dd>
-								<p>
-									I can use <b>Python</b>,  <b>PL/SQL</b>, and <b>SQL Query</b> for doing ETL work
-									by the business needs and store them to the Data Warehouse and Data Mart.
-								</p>
-							</dd>
-							<dt>Data Visualization</dt>
-							<dd>
-								<p>
-									I visualize data by understanding user needs and transforming their requirements into clear and 
-									insightful reports or dashboards using <b>Tableau</b>. This involves gathering user specifications, 
-									analyzing data, and designing dashboards that effectively communicate the information to support 
-									decision-making.
-								</p>
-							</dd>
-							<dt>Communication</dt>
-							<dd>
-								<p>
-									I am well-versed in engaging with users to understand their data requirements, facilitating 
-									discussions, and offering informed recommendations based on comprehensive technical evaluations. 
-									Through collaborative efforts, I ensure that the data provided meets their needs and contributes 
-									to achieving their objectives. My approach includes analyzing their requests, providing insights, 
-									and suggesting optimal solutions to enhance data utilization and support decision-making processes.
-								</p>
-							</dd>
-							<!--<dt>Machine Learning</dt>
-							<dd>
-								 <p>
-									I'm trained to create machine learning model with
-									<b>TensorFlow</b> framework from collecting data, preprocess, 
-									modeling, and to deploy it with TensorFlow Lite or cloud 
-									deployment. I can either use another algorithm for <b>supervised</b>
-									or <b>unsupervised learning</b> to do classificaton, clustering, prediction, etc. 
-								</p> 
-							</dd>-->
-						</dl>
-					</div>
-					<div class="image">
-						<img src="images\wallpap.jpg" alt="" />
-					</div>
-				</section>
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:0 24px;}
+  .eyebrow{
+    font-family:var(--font-mono);
+    font-size:.78rem;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    color:var(--accent-deep);
+    display:block;
+    margin-bottom:.6em;
+  }
 
-				<!-- Footer -->
-					<footer class="wrapper style1 align-center">
-						<div class="inner">
-							<h2>Connect with me</h2>
-							<ul class="icons">
-								<li><a href="https://www.facebook.com/imam.lutfi1/" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="https://www.instagram.com/lutfi__rahmatullah/" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="https://www.linkedin.com/in/imam-lutfi-r-27980711a/" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://github.com/lutfi640" class="icon brands style2 fa-github"><span class="label">Github</span></a></li>
-								<li><a href="mailto: lutfi640@gmail.com" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
-							</ul>
-							<p>&copy;Imam Lutfi Rahmatullah. Design Template by: <a href="https://html5up.net">HTML5 UP</a>.</p>
-						</div>
-					</footer>
+  /* ---------- Nav ---------- */
+  header.nav{
+    position:sticky; top:0; z-index:50;
+    background:rgba(245,246,244,.86);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav-inner{
+    max-width:var(--maxw); margin:0 auto; padding:14px 24px;
+    display:flex; align-items:center; justify-content:space-between; gap:16px;
+  }
+  .nav-name{font-family:var(--font-display); font-weight:600; font-size:1rem; text-decoration:none; white-space:nowrap;}
+  .nav-links{
+    display:flex; gap:22px; list-style:none; margin:0; padding:0;
+    overflow-x:auto; scrollbar-width:none;
+  }
+  .nav-links::-webkit-scrollbar{display:none;}
+  .nav-links a{
+    text-decoration:none; font-size:.9rem; color:var(--steel); white-space:nowrap;
+    padding:4px 2px; border-bottom:2px solid transparent;
+  }
+  .nav-links a:hover{color:var(--ink); border-color:var(--accent);}
 
-			</div>
+  /* ---------- Hero ---------- */
+  .hero{
+    padding:64px 0 56px;
+  }
+  .hero-inner{
+    display:grid; grid-template-columns:1.2fr .8fr; gap:40px; align-items:center;
+  }
+  .hero h1{font-size:clamp(2rem, 4vw, 3.1rem);}
+  .hero .role{
+    font-family:var(--font-mono); font-size:1rem; color:var(--steel);
+    margin:0 0 20px;
+  }
+  .hero p.lede{max-width:46ch; color:var(--steel); margin:0 0 28px;}
+  .btn{
+    display:inline-flex; align-items:center; gap:8px;
+    background:var(--ink); color:var(--paper);
+    font-family:var(--font-mono); font-size:.85rem;
+    padding:12px 20px; border-radius:999px; text-decoration:none;
+    border:1px solid var(--ink);
+    transition:background .15s ease, color .15s ease;
+  }
+  .btn:hover{background:transparent; color:var(--ink);}
+  .hero-photo{
+    aspect-ratio:4/5; border-radius:var(--radius); overflow:hidden;
+    background:var(--paper-dim); border:1px solid var(--line);
+  }
+  .hero-photo img{width:100%; height:100%; object-fit:cover;}
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			
-	</body>
+  /* signature pipeline divider */
+  .pipeline{width:100%; height:auto; display:block; margin:8px 0 4px;}
+  .pipeline .seg{stroke:var(--line); stroke-width:2;}
+  .pipeline .seg-draw{
+    stroke:var(--accent); stroke-width:2; stroke-dasharray:600;
+    stroke-dashoffset:600; transition:stroke-dashoffset 1.1s ease;
+  }
+  .pipeline.is-visible .seg-draw{stroke-dashoffset:0;}
+  .pipeline circle{fill:var(--paper);}
+  .pipeline .node{stroke:var(--steel); stroke-width:2;}
+  .pipeline text{font-family:var(--font-mono); font-size:11px; fill:var(--steel);}
+
+  section{padding:56px 0;}
+  section + section{border-top:1px solid var(--line);}
+  .section-head{margin-bottom:32px;}
+  .section-head h2{font-size:clamp(1.4rem,2.6vw,1.9rem);}
+
+  /* ---------- reveal ---------- */
+  .reveal{opacity:0; transform:translateY(14px); transition:opacity .5s ease, transform .5s ease;}
+  .reveal.is-visible{opacity:1; transform:none;}
+
+  /* ---------- About ---------- */
+  .about-grid{display:grid; grid-template-columns:.9fr 1.4fr; gap:36px; align-items:center;}
+  .about-photo{border-radius:var(--radius); overflow:hidden; aspect-ratio:1; border:1px solid var(--line); background:var(--paper-dim);}
+  .about-photo img{width:100%; height:100%; object-fit:cover;}
+  .about-text p{color:var(--steel-soft); margin:0 0 1em;}
+  .about-text strong{color:var(--ink);}
+
+  /* ---------- Experience ---------- */
+  .timeline{list-style:none; margin:0; padding:0; border-left:2px solid var(--line);}
+  .timeline li{position:relative; padding:0 0 34px 28px;}
+  .timeline li:last-child{padding-bottom:0;}
+  .timeline li::before{
+    content:""; position:absolute; left:-7px; top:4px;
+    width:12px; height:12px; border-radius:50%;
+    background:var(--paper); border:2px solid var(--accent-deep);
+  }
+  .timeline .role{font-size:1.05rem; font-weight:600; margin:0;}
+  .timeline .org{color:var(--steel); font-size:.95rem; margin:2px 0 6px;}
+  .timeline .when{font-family:var(--font-mono); font-size:.78rem; color:var(--accent-deep); text-transform:uppercase; letter-spacing:.04em;}
+  .timeline .desc{color:var(--steel-soft); margin:8px 0 0; max-width:62ch;}
+  .timeline ul.alt{margin:8px 0 0; padding-left:18px; color:var(--steel-soft);}
+
+  /* ---------- Skills ---------- */
+  .skills-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:24px;}
+  .skill-card{
+    background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+    padding:22px;
+  }
+  .skill-card h3{font-size:1rem; margin-bottom:10px;}
+  .skill-card p{color:var(--steel-soft); margin:0; font-size:.95rem;}
+  .chips{display:flex; flex-wrap:wrap; gap:8px; margin:0; padding:0; list-style:none;}
+  .chips li{
+    font-family:var(--font-mono); font-size:.78rem; color:var(--steel);
+    background:var(--paper-dim); border:1px solid var(--line);
+    padding:5px 10px; border-radius:6px;
+  }
+
+  /* ---------- Projects ---------- */
+  .projects-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:22px;}
+  .project-card{
+    background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+    overflow:hidden; text-decoration:none; display:flex; flex-direction:column;
+    transition:border-color .15s ease, transform .15s ease;
+  }
+  .project-card:hover{border-color:var(--accent-deep); transform:translateY(-3px);}
+  .project-thumb{aspect-ratio:16/10; background:var(--paper-dim); display:flex; align-items:center; justify-content:center; padding:18px;}
+  .project-thumb img{width:100%; height:100%; object-fit:contain;}
+  .project-body{padding:16px 18px 20px;}
+  .project-body h3{font-size:.98rem; margin-bottom:6px; color:var(--ink);}
+  .project-body p{font-size:.88rem; color:var(--steel-soft); margin:0;}
+  .project-card.journal .project-body p a{color:var(--accent-deep); text-decoration:underline;}
+
+  /* ---------- Certificates ---------- */
+  .cert-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:16px;}
+  .cert-item{
+    border:1px solid var(--line); border-radius:var(--radius); background:var(--card);
+    overflow:hidden; cursor:pointer; padding:0; text-align:left;
+  }
+  .cert-thumb{aspect-ratio:4/3; overflow:hidden; background:var(--paper-dim);}
+  .cert-thumb img{width:100%; height:100%; object-fit:cover;}
+  .cert-caption{padding:10px 12px 12px;}
+  .cert-caption h4{font-size:.78rem; margin:0 0 2px; font-family:var(--font-mono); color:var(--accent-deep); text-transform:uppercase; letter-spacing:.03em;}
+  .cert-caption p{font-size:.82rem; margin:0; color:var(--steel);}
+
+  dialog#lightbox{
+    border:none; border-radius:var(--radius); padding:0; max-width:min(90vw, 720px);
+    background:var(--card);
+  }
+  dialog#lightbox::backdrop{background:rgba(23,27,31,.75);}
+  .lightbox-inner{position:relative;}
+  .lightbox-inner img{width:100%; height:auto; display:block;}
+  .lightbox-close{
+    position:absolute; top:10px; right:10px;
+    width:34px; height:34px; border-radius:50%; border:none;
+    background:var(--ink); color:var(--paper); font-size:1.1rem; cursor:pointer;
+  }
+
+  /* ---------- Contact / footer ---------- */
+  footer.contact{padding:60px 0 40px; text-align:center;}
+  footer.contact h2{font-size:clamp(1.4rem,3vw,2rem);}
+  footer.contact p{color:var(--steel); max-width:44ch; margin:0 auto 24px;}
+  .social{
+    display:flex; justify-content:center; gap:14px; list-style:none; margin:0 0 28px; padding:0;
+  }
+  .social a{
+    width:40px; height:40px; border-radius:50%; border:1px solid var(--line);
+    display:flex; align-items:center; justify-content:center; text-decoration:none;
+    color:var(--steel); transition:background .15s ease, color .15s ease, border-color .15s ease;
+  }
+  .social a:hover{background:var(--ink); color:var(--paper); border-color:var(--ink);}
+  .social svg{width:18px; height:18px;}
+  .fineprint{font-family:var(--font-mono); font-size:.75rem; color:var(--steel-soft);}
+
+  @media (max-width:820px){
+    .hero-inner{grid-template-columns:1fr;}
+    .hero-photo{order:-1; max-width:280px; margin:0 auto;}
+    .about-grid{grid-template-columns:1fr;}
+    .about-photo{max-width:260px; margin:0 auto;}
+    .skills-grid{grid-template-columns:1fr;}
+    .projects-grid{grid-template-columns:repeat(2,1fr);}
+    .cert-grid{grid-template-columns:repeat(2,1fr);}
+  }
+  @media (max-width:480px){
+    .projects-grid{grid-template-columns:1fr;}
+    .cert-grid{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="nav-name" href="#top">Imam Lutfi</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div>
+        <span class="eyebrow">Data Engineer · Data Analyst</span>
+        <h1>Imam Lutfi Rahmatullah</h1>
+        <p class="role">SQL · Python · Tableau · Airflow</p>
+        <p class="lede">I design and maintain data pipelines that move raw operational data from source systems into warehouses and marts — then turn it into dashboards people actually use.</p>
+        <a class="btn" href="#projects">See the work ↓</a>
+      </div>
+      <div class="hero-photo">
+        <img src="images/banner2.jpg" alt="Imam Lutfi Rahmatullah" width="480" height="600" loading="eager" fetchpriority="high" decoding="async" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">01 — About</span>
+        <h2>What I do</h2>
+      </div>
+      <div class="about-grid reveal">
+        <div class="about-photo">
+          <img src="images/Profile1.jpg" alt="Imam Lutfi Rahmatullah portrait" width="400" height="400" loading="lazy" decoding="async" />
+        </div>
+        <div class="about-text">
+          <p><strong>Data Engineer at PT Surya Madistrindo</strong>, a subsidiary of PT Gudang Garam Tbk. I design, build, and maintain data pipelines from a range of sources, storing the results in data warehouses and data marts.</p>
+          <p>Recent projects include automated email reporting, generated Excel reports, and multi-source data extraction in Python built around end-user needs. I also visualize data in <strong>Tableau</strong> and monitor workflows with <strong>Airflow</strong>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">02 — Experience</span>
+        <h2>Where I've worked</h2>
+      </div>
+      <ol class="timeline reveal">
+        <li>
+          <p class="role">Data Engineer</p>
+          <p class="org">PT Surya Madistrindo</p>
+          <span class="when">2022 — Current</span>
+          <p class="desc">Building projects for end users with SQL, Python, and Tableau, working closely with stakeholders to translate data needs into solutions.</p>
+        </li>
+        <li>
+          <p class="role">Machine Learning Cohort</p>
+          <p class="org">Bangkit Academy — led by Google, Tokopedia, Gojek &amp; Traveloka</p>
+          <span class="when">2021</span>
+          <p class="desc">One semester in the Machine Learning path. Capstone: an Android app to help users screen for early-stage skin cancer.</p>
+        </li>
+        <li>
+          <p class="role">Head of Academic Division</p>
+          <p class="org"><a href="https://himtiuinjkt.or.id" target="_blank" rel="noopener">HIMTI UIN Jakarta</a></p>
+          <span class="when">2019 — 2021</span>
+          <p class="desc">Supported Informatics Engineering students at UIN Syarif Hidayatullah Jakarta through academic work programs.</p>
+        </li>
+        <li>
+          <p class="role">Member, Innovation Team</p>
+          <p class="org">Faculty of Science and Technology, UIN Jakarta</p>
+          <span class="when">2020 — 2021</span>
+          <p class="desc">Built faculty-requested Arduino / Raspberry Pi projects, including an automatic thermometer and hand-sanitizer dispenser.</p>
+        </li>
+        <li>
+          <p class="role">Lecturer Assistant</p>
+          <p class="org">UIN Syarif Hidayatullah Jakarta</p>
+          <span class="when">2020 — Present</span>
+          <ul class="alt">
+            <li>Digital System (4th &amp; 6th semester, 2020–2021)</li>
+            <li>Embedded System (7th semester, 2021)</li>
+            <li>Robotics (8th semester, present)</li>
+          </ul>
+        </li>
+        <li>
+          <p class="role">National Finalist</p>
+          <p class="org">Huawei ICT Competition 2020–2021</p>
+          <span class="when">2020 — 2021</span>
+          <p class="desc">Ranked 3rd in the campus selection round and represented the university at the national round.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">03 — Skills</span>
+        <h2>Toolbox</h2>
+      </div>
+
+      <svg class="pipeline reveal" viewBox="0 0 600 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <line x1="20" y1="20" x2="580" y2="20" class="seg-draw"></line>
+        <g class="node">
+          <circle cx="60" cy="20" r="7"></circle>
+          <circle cx="220" cy="20" r="7"></circle>
+          <circle cx="380" cy="20" r="7"></circle>
+          <circle cx="540" cy="20" r="7"></circle>
+        </g>
+        <text x="60" y="8" text-anchor="middle">EXTRACT</text>
+        <text x="220" y="8" text-anchor="middle">TRANSFORM</text>
+        <text x="380" y="8" text-anchor="middle">LOAD</text>
+        <text x="540" y="8" text-anchor="middle">VISUALIZE</text>
+      </svg>
+
+      <div class="skills-grid reveal">
+        <div class="skill-card">
+          <h3>Languages &amp; Tools</h3>
+          <ul class="chips">
+            <li>Oracle SQL</li><li>PostgreSQL</li><li>MongoDB</li><li>Apache Spark</li>
+            <li>Airflow</li><li>Python</li><li>Tableau</li><li>SSRS</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Data Extraction</h3>
+          <p>Python, PL/SQL, and SQL for ETL work matched to business needs, landed in data warehouses and marts.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Data Visualization</h3>
+          <p>Turning user requirements into clear Tableau dashboards — analytical for decisions, monitoring for day-to-day performance.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Communication</h3>
+          <p>Working directly with stakeholders to scope requirements, evaluate options, and recommend the right approach.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">04 — Projects</span>
+        <h2>Selected work</h2>
+      </div>
+      <div class="projects-grid reveal">
+
+        <a class="project-card" href="https://github.com/lutfi640/lutfi640.github.io/tree/main/images/Sample%20of%20Tableau%20Dashboard" target="_blank" rel="noopener">
+          <div class="project-thumb"><img src="images/Tableau-Emblem.png" alt="Tableau Dashboard" width="200" height="100" loading="lazy" decoding="async" /></div>
+          <div class="project-body">
+            <h3>Tableau Dashboard</h3>
+            <p>Dashboards and datasets built from the ground up — from warehouse to analytical and monitoring views.</p>
+          </div>
+        </a>
+
+        <a class="project-card" href="https://github.com/lutfi640/bangkit-final-project" target="_blank" rel="noopener">
+          <div class="project-thumb"><img src="images/skinskan.png" alt="SkinSkan" width="200" height="100" loading="lazy" decoding="async" /></div>
+          <div class="project-body">
+            <h3>SkinSkan</h3>
+            <p>Helps users self-examine for early-stage skin cancer. Bangkit Academy capstone project.</p>
+          </div>
+        </a>
+
+        <a class="project-card" href="https://github.com/lutfi640/Rock-Paper-Scissors-Classification" target="_blank" rel="noopener">
+          <div class="project-thumb"><img src="images/rps.jpg" alt="Rock Paper Scissors Classification" width="200" height="200" loading="lazy" decoding="async" /></div>
+          <div class="project-body">
+            <h3>Rock Paper Scissors Classification</h3>
+            <p>Image classifier using neural networks and transfer learning with VGG16.</p>
+          </div>
+        </a>
+
+        <a class="project-card" href="https://github.com/lutfi640/Arabic-Handwriting-Classification" target="_blank" rel="noopener">
+          <div class="project-thumb"><img src="images/handwriting.png" alt="Arabic Handwriting Classification" width="200" height="100" loading="lazy" decoding="async" /></div>
+          <div class="project-body">
+            <h3>Arabic Handwriting Classification</h3>
+            <p>CNN model classifying handwritten Arabic letters and numbers.</p>
+          </div>
+        </a>
+
+        <a class="project-card" href="https://github.com/lutfi640/Arabic-Speech-Recognition" target="_blank" rel="noopener">
+          <div class="project-thumb"><img src="images/speech.png" alt="Arabic Speech Recognition" width="200" height="100" loading="lazy" decoding="async" /></div>
+          <div class="project-body">
+            <h3>Arabic Speech Recognition</h3>
+            <p>Spoken word classifier using MFCC feature extraction, deployed on Heroku.</p>
+          </div>
+        </a>
+
+        <div class="project-card journal">
+          <div class="project-thumb"><img src="images/UIN Syarif Hidayatullah.png" alt="Published journal" width="100" height="100" loading="lazy" decoding="async" /></div>
+          <div class="project-body">
+            <h3>Published Journal</h3>
+            <p><a href="https://doi.org/10.1109/CITSM52892.2021.9588947" target="_blank" rel="noopener">Comparing Bitcoin's Prediction Model Using GRU, RNN, and LSTM by Hyperparameter Optimization Grid Search and Random Search</a></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <section id="certificates">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">05 — Certificates</span>
+        <h2>Courses &amp; certifications</h2>
+      </div>
+      <div class="cert-grid reveal">
+
+        <button class="cert-item" data-full="images/Certificate/Coursera ET6WV5KXNQ4U-1.jpg">
+          <div class="cert-thumb"><img src="images/Certificate/Coursera ET6WV5KXNQ4U-1.jpg" alt="Google IT Automation with Python certificate" loading="lazy" decoding="async" /></div>
+          <div class="cert-caption"><h4>Google via Coursera</h4><p>IT Automation with Python</p></div>
+        </button>
+
+        <button class="cert-item" data-full="images/Certificate/Coursera M4C8PPYDXMRK-1.jpg">
+          <div class="cert-thumb"><img src="images/Certificate/Coursera M4C8PPYDXMRK-1.jpg" alt="DeepLearning.AI TensorFlow Developer certificate" loading="lazy" decoding="async" /></div>
+          <div class="cert-caption"><h4>DeepLearning.AI via Coursera</h4><p>TensorFlow Developer</p></div>
+        </button>
+
+        <button class="cert-item" data-full="images/Certificate/Coursera HWFUBPTY739B-1.jpg">
+          <div class="cert-thumb"><img src="images/Certificate/Coursera HWFUBPTY739B-1.jpg" alt="TensorFlow Data and Deployment certificate" loading="lazy" decoding="async" /></div>
+          <div class="cert-caption"><h4>DeepLearning.AI via Coursera</h4><p>TensorFlow: Data and Deployment</p></div>
+        </button>
+
+        <button class="cert-item" data-full="images/Certificate/Coursera LGBCA4BXQ2UZ-1.jpg">
+          <div class="cert-thumb"><img src="images/Certificate/Coursera LGBCA4BXQ2UZ-1.jpg" alt="Mathematics for Machine Learning certificate" loading="lazy" decoding="async" /></div>
+          <div class="cert-caption"><h4>Imperial College London via Coursera</h4><p>Mathematics for Machine Learning</p></div>
+        </button>
+
+        <button class="cert-item" data-full="images/Certificate/Coursera ZY4AE67N8UJW-1.jpg">
+          <div class="cert-thumb"><img src="images/Certificate/Coursera ZY4AE67N8UJW-1.jpg" alt="Google IT Support certificate" loading="lazy" decoding="async" /></div>
+          <div class="cert-caption"><h4>Google via Coursera</h4><p>IT Support</p></div>
+        </button>
+
+        <button class="cert-item" data-full="images/Certificate/Imam_Lutfi_Rahmatullah_12-08-2021_page-0001.jpg">
+          <div class="cert-thumb"><img src="images/Certificate/Imam_Lutfi_Rahmatullah_12-08-2021_page-0001.jpg" alt="Cakap x Bangkit Digital English Program certificate" loading="lazy" decoding="async" /></div>
+          <div class="cert-caption"><h4>Cakap x Bangkit</h4><p>Digital English Program</p></div>
+        </button>
+
+        <button class="cert-item" data-full="images/Certificate/sertifikat_course_86_370000_040722120452-1_page-0001.jpg">
+          <div class="cert-thumb"><img src="images/Certificate/sertifikat_course_86_370000_040722120452-1_page-0001.jpg" alt="Dicoding Python programming certificate" loading="lazy" decoding="async" /></div>
+          <div class="cert-caption"><h4>Dicoding</h4><p>Memulai Pemrograman Dengan Python</p></div>
+        </button>
+
+        <button class="cert-item" data-full="images/Certificate/sertifikat_course_177_370000_050622212431-1_page-0001.jpg">
+          <div class="cert-thumb"><img src="images/Certificate/sertifikat_course_177_370000_050622212431-1_page-0001.jpg" alt="Dicoding data visualization certificate" loading="lazy" decoding="async" /></div>
+          <div class="cert-caption"><h4>Dicoding</h4><p>Belajar Dasar Visualisasi Data</p></div>
+        </button>
+
+        <button class="cert-item" data-full="images/Certificate/sertifikat_course_184_370000_040722120148-1_page-0001.jpg">
+          <div class="cert-thumb"><img src="images/Certificate/sertifikat_course_184_370000_040722120148-1_page-0001.jpg" alt="Dicoding machine learning for beginners certificate" loading="lazy" decoding="async" /></div>
+          <div class="cert-caption"><h4>Dicoding</h4><p>Belajar Machine Learning Untuk Pemula</p></div>
+        </button>
+
+        <button class="cert-item" data-full="images/Certificate/python basic.png">
+          <div class="cert-thumb"><img src="images/Certificate/python basic.png" alt="HackerRank Python Basic certificate" loading="lazy" decoding="async" /></div>
+          <div class="cert-caption"><h4>HackerRank</h4><p>Python (Basic)</p></div>
+        </button>
+
+        <button class="cert-item" data-full="images/Certificate/sql (Basic).png">
+          <div class="cert-thumb"><img src="images/Certificate/sql (Basic).png" alt="HackerRank SQL Basic certificate" loading="lazy" decoding="async" /></div>
+          <div class="cert-caption"><h4>HackerRank</h4><p>SQL (Basic)</p></div>
+        </button>
+
+        <button class="cert-item" data-full="images/Certificate/sql intermdiate.png">
+          <div class="cert-thumb"><img src="images/Certificate/sql intermdiate.png" alt="HackerRank SQL Intermediate certificate" loading="lazy" decoding="async" /></div>
+          <div class="cert-caption"><h4>HackerRank</h4><p>SQL (Intermediate)</p></div>
+        </button>
+
+      </div>
+    </div>
+  </section>
+
+  <dialog id="lightbox">
+    <div class="lightbox-inner">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+      <img id="lightboxImg" src="" alt="Certificate preview" />
+    </div>
+  </dialog>
+
+</main>
+
+<!-- CONTACT -->
+<footer class="contact" id="contact">
+  <div class="wrap">
+    <span class="eyebrow">06 — Contact</span>
+    <h2>Let's talk data</h2>
+    <p>Open to data engineering and analytics roles. Reach out on any of these:</p>
+    <ul class="social">
+      <li><a href="https://www.facebook.com/imam.lutfi1/" target="_blank" rel="noopener" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.6h2.6l.4-3h-3v-1.9c0-.87.24-1.46 1.5-1.46h1.6V4.14C15.87 4.06 14.94 4 13.85 4c-2.28 0-3.85 1.39-3.85 3.94v2.46H7.4v3h2.6V21h3.5z"/></svg>
+      </a></li>
+      <li><a href="https://www.instagram.com/lutfi__rahmatullah/" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+      </a></li>
+      <li><a href="https://www.linkedin.com/in/imam-lutfi-r-27980711a/" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2 2 0 110 4 2 2 0 010-4zM3 8.98h4V21H3V8.98zM9 8.98h3.8v1.64h.05c.53-.98 1.83-2.02 3.77-2.02 4.03 0 4.78 2.6 4.78 6V21h-4v-5.5c0-1.31-.02-3-1.86-3-1.87 0-2.15 1.42-2.15 2.9V21H9V8.98z"/></svg>
+      </a></li>
+      <li><a href="https://github.com/lutfi640" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-3.16 19.5c.5.1.68-.22.68-.48v-1.7c-2.78.6-3.37-1.2-3.37-1.2-.46-1.15-1.11-1.46-1.11-1.46-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.93 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 015 0c1.9-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.83-2.34 4.68-4.57 4.92.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0012 2z"/></svg>
+      </a></li>
+      <li><a href="mailto:lutfi640@gmail.com" aria-label="Email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+      </a></li>
+    </ul>
+    <p class="fineprint">&copy; Imam Lutfi Rahmatullah</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  // Scroll reveal — replaces the old jQuery/scrollex/scrolly/breakpoints stack
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var targets = document.querySelectorAll('.reveal, .pipeline');
+  if(reduce || !('IntersectionObserver' in window)){
+    targets.forEach(function(t){ t.classList.add('is-visible'); });
+  } else {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){
+          entry.target.classList.add('is-visible');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    targets.forEach(function(t){ io.observe(t); });
+  }
+
+  // Lightweight lightbox for certificates — native <dialog>, no library
+  var dialog = document.getElementById('lightbox');
+  var img = document.getElementById('lightboxImg');
+  document.querySelectorAll('.cert-item').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      img.src = btn.getAttribute('data-full');
+      img.alt = btn.querySelector('img').alt;
+      dialog.showModal();
+    });
+  });
+  document.getElementById('lightboxClose').addEventListener('click', function(){
+    dialog.close();
+  });
+  dialog.addEventListener('click', function(e){
+    if(e.target === dialog) dialog.close();
+  });
+})();
+</script>
+
+</body>
 </html>
